@@ -53,7 +53,7 @@ const somaIdades = pessoas.reduce((acumulador, pessoa ) => {
 const procurar = pessoas.find(pessoa => pessoa.cidade === "Santos")
 console.log(procurar) */
 
-//                       Agora mesmos objetivos mas apenas para pesssoas ativas
+//                  Agora mesmos objetivos mas apenas para pesssoas ativas
 
 
 const pessoasAtivas = pessoas.filter(pessoa => pessoa.ativo === true)
@@ -64,4 +64,3 @@ const somaIdade = pessoasAtivas.reduce((acumulador, pessoa) => {
 const pessoaCidade = pessoasAtivas.find(pessoa => pessoa.cidade === "São Paulo") 
 
 console.log(pessoasAtivas)
-
